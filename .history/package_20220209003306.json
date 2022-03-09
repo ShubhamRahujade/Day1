@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open":"npx cypress run --headed --browser chrome --config baseUrl=\"https://google.com/\" --spec 'cypress/integration/Day20/login.spec.js'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +15,4 @@
   "devDependencies": {
     "@types/jest": "^27.4.0"
   }
-  
 }
